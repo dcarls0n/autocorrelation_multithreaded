@@ -1,0 +1,6 @@
+I tested only autocorrelating every 10, 100, and 1000 lagsteps. Sampling infrequently gave noisy Green Kubo integrals with unreliable results. 
+
+The early lagsteps are vital to correctly calculating the GK integral. 
+
+It may be worthwhile in the future looking into finding all the early lagsteps, but then only a portion of the later lagsteps (like every 10 or 100 of any lagsteps past 50%)
+
