@@ -258,7 +258,7 @@ int main(int argc, char*argv[])
 	if (argc != 4) {
 		//Notify the user that they need to specify number of threads
 		std::cerr << "Please specify the number of threads on which to run, as well as the sample step size and number of lag steps" << std::endl;
-		std::cerr << "(Example of 16-thread usage: '~/software/DJC_autocorr_threads/autocorrelate_threads_notindep.exe 16 1 200000 < ./pressure.bin > /dev/null' )" << std::endl;
+		std::cerr << "(Example of 16-thread usage: 'autocorrelate_multithreaded.exe 16 1 200000 < ./pressure.bin > /dev/null' )" << std::endl;
 		return 1;
 	} else {
 		num_threads_str = argv[1];
